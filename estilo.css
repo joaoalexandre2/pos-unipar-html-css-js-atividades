@@ -1,0 +1,653 @@
+
+/* CSS Document */
+*{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 150%;
+}
+
+
+.textopadrao{
+    font-size: 12pt;
+    line-height: 200%;
+}
+
+
+
+.textopadrao2{
+    font-size-adjust: 11pt;
+}
+
+.textopadrao3{
+    font-size: 18pt;
+}
+
+
+.titulopadrao{
+    font-size:40pt;
+}
+
+
+
+
+.verde{
+    color:#0f8f2e;
+}
+
+
+.branco{
+    color:white;
+}
+
+.verde-medio{
+    color:#3fa558;
+}
+
+.cinza{
+    color:#878787;
+}
+
+.cinza2{
+    color: #363636;
+}
+
+
+
+
+.azul{
+    color:#233746;
+}
+
+
+
+
+div#topofull{
+    position:fixed;
+    width:100%;
+    height:57px;
+    border-bottom: 3px solid #dbdbdb;
+    z-index: 10;
+}
+
+
+div.menutopo{
+    height:57px;
+    background:white;
+}
+
+.espacotopo{
+    height:57px;
+}
+
+
+.logotopo{
+ position: relative;
+ display: inline-block;
+ width: 134px;
+ height: 45px;
+ background: url(img/logotopo.png) top center no-repeat;
+}
+
+
+
+.telefonetopo{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 10pt;
+    top:-3px;
+}
+
+.telefonetopo img{
+    position: relative;
+    top:3px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.logotopo{
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 68px;
+    background: url(img/logotopo.png) top center no-repeat;
+    top:7px;
+}
+
+/*.boxlateral{
+    position: fixed;
+    right:-170px;
+    width:247px;
+    overflow: hidden;
+    height: 67px;
+    line-height: 67px;
+    transition-duration: .3s;
+    z-index:10;
+    background: #f8b033;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.boxlateral:hover{
+    right:0px;
+}
+
+.boxlateral img{
+    float: left;
+    padding:12px 20px;
+    padding-right:15px;
+}
+
+.boxlateral h4{
+    position: relative;
+    line-height: 67px;
+}
+*/
+
+
+.boxlateral{
+    position: fixed;
+    right:-175px;
+    width:247px;
+    overflow: hidden;
+    height: 67px;
+    line-height: 67px;
+    transition-duration: .3s;
+    z-index:10;
+    background:#0f8f2e;
+    border: 8px solid #ffffff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:50px;
+    border-right:0px;
+}
+
+.boxlateral:hover{
+    right:0px;
+}
+
+.boxlateral img{
+    float: left;
+    padding:12px 20px;
+}
+
+.boxlateral h4{
+    position: relative;
+    line-height: 67px;
+}
+
+
+
+/* rodape */
+
+.fundomapa{
+    position: relative;
+    width: 100%;
+    height: 449px;
+    background:#e5e5e5;;
+}
+
+.fundomapa .tamanhoh5{
+padding-left:10px;
+
+}
+
+.fundomapa .tamanhoh5:hover{
+    background:#0f8f2e;
+    color:#fff;
+}
+
+
+
+.divisorrodape{
+    position: absolute;
+    width:1px;
+    height:300px;
+    background: white;
+    left:-40px;
+    top:-10px;
+}
+
+.rodapefull{
+    position: relative;
+    width: 100%;
+    height: 715px;
+    background: url(img/fundorodape.png) top center no-repeat;
+}
+
+
+
+
+.logorodape{
+ position: relative;
+ width: 484px;
+ height:158px;
+ background: url(img/logorodape.png) top center no-repeat;
+ margin-left:-100px;
+}
+
+.redessociais{
+    position: relative;
+    width: 100%;
+}
+
+
+
+.redessociais img{
+    position: relative;
+    display: inline-block;
+    width: 114px;
+    height: 114px;
+    margin: 0px 10px;
+    transition-duration: .3s;
+}
+
+.redessociais img:hover{
+    opacity: .7;
+}
+
+.fundoazul{
+    position: relative;
+    width:100%;
+    height:43px;
+    background: #233746;
+}
+
+/* fim rodape*/
+
+
+/* Produtos Final */
+
+.boxcursos{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    background:#0f8f2e;
+    text-align:center;
+    overflow: hidden;
+}
+
+.boxcursos2{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    background:#3fa558;
+    text-align:center;
+    overflow: hidden;
+
+}
+
+
+
+
+/* fim Produtos Final */
+
+
+
+/* Inicio Servicos */
+.shellservicos{
+    position: relative;
+    float:left;
+    width:1227px;
+    height:357px;
+}
+
+.boxtextoservicos{
+    position: relative;
+    width: 855px;
+    height: 271px;
+    overflow: hidden;
+    background:#e5e5e5;
+    margin-top:15px;
+}
+
+.descricaoshellservicos{
+    position: relative;
+    width:775px;
+    height:110px;
+    overflow:hidden;
+    padding:20px;
+}
+
+.fundofotoverde{
+    position: relative;
+    float:left;
+    width:370px;
+    height:300px;
+    background:#0f8f2e; 
+    background: 
+
+}
+
+
+.cortaicone{
+    position: relative;
+    width:140px;
+    height: 140px;
+    margin-left:116px;
+    overflow: hidden;
+}
+
+
+/* Fim Servicos */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home 1 */
+
+.home1{
+    position:relative;
+    width: 100%;
+    height:auto;
+    background: #ffffff;
+}
+
+.shellservicoshome{
+    position: relative;
+    float:left;
+    width: 306px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.fundoverdehome{
+    position:relative;
+    float: left;
+    width:219px;
+    height:164px;
+    background: #0f8f2e;
+    top:80px;
+    left:40px;
+    z-index: 2;
+}
+
+.shellboxcinza{
+     position: relative;
+    float:left;
+    width:302px;
+    height:231px;
+    background: #e5e5e5;
+    z-index: 1;
+}
+
+
+.cortaiconehome{
+    position: relative;
+    width:140px;
+    height: 140px;
+    margin-left:40px;
+    top:15px;
+    overflow: hidden;
+}
+
+
+.botaohome1{
+    position: relative;
+    width: 535px;
+    height:78px;
+    text-align: center;
+    line-height:78px;
+    overflow: hidden;
+    background: url(img/home3btn.png) top center no-repeat;
+}
+
+/* fim home1*/
+
+
+
+
+
+
+/* inicio home2 */
+
+.fundohome2{
+    position: relative;
+    width: 100%;
+    height:auto;
+    background: url(img/home2fundo.png) top center no-repeat;
+}
+
+
+.home2{
+    position: relative;
+     /* verificar height  05/03*/
+    width:100%;
+    height:2800px;
+}
+
+
+
+ .cortatexto{
+    position: relative;
+    height:250px;
+    overflow: hidden;
+}
+
+
+.fundofototreinamentos{
+    position:relative;
+    width:435px;
+    height:434px;
+    background: url(img/home2elipse.png) top center no-repeat;
+    left:50px;
+}
+
+
+.botaohome2{
+    position: relative;
+    width:319px;
+    height:78px;
+    line-height:78px;
+    text-align: center;
+    overflow: hidden;
+    margin-left:200px;
+    background: url(img/home2btn.png) top center no-repeat;
+}
+
+
+
+.cortafoto{
+    position: relative;
+    width:256px;
+    height: 322px;
+    margin-left:60px;
+    margin-top:40px;
+    overflow: hidden;
+}
+
+
+.fotoempresa1{
+    position:absolute;
+   width:405px;
+    height:508px;
+    overflow: hidden;
+    border:25px solid white;
+    top:120px;
+    right:400px;   
+}
+
+
+
+.fotoempresa2{
+    position:absolute;
+     width:667px;
+    height:494px;
+    overflow: hidden;
+    border:25px solid white;
+    left:300px;
+}
+
+
+.fotoempresa3{
+    position: absolute;
+    width: 281px;
+    height: 381px;
+    overflow: hidden;
+    border:25px solid white;
+    top:450px;
+    left:150px;
+
+}
+
+
+
+/* fecha home2 */
+
+
+
+
+
+
+
+
+/* inicio home 3*/
+
+.home3{
+    position: relative;
+    width:100%;
+    height:790px;
+    background:#e5e5e5;
+}
+
+
+.imagemhome3{
+    position: relative;
+    width: 211px;
+    height:792px;
+    background: url(img/home3tituloblog.png) top center no-repeat;
+}
+
+
+ .shellbloghome{
+    position: relative;
+    float:left;
+    width: 293px;
+    height:495px;
+    overflow: hidden;
+    margin-left:10px;
+ }
+
+ .fotobloghome{
+    position: relative;
+    width:303px;
+    height:323px;
+    border:5px solid white;
+    overflow: hidden;
+ }
+
+
+ .fotobloghome img{
+    position: relative;
+    width:303px;
+    height:323px;
+    overflow: hidden;
+ }
+
+
+ .cortefotoblog{
+    position: relative;
+    width:318px;
+    height:323px;
+    overflow: hidden;
+ }
+
+
+ .fotobloghome:hover{
+    border:5px solid #0f8f2e;
+ }
+
+
+ .shellfotobloghome .iconmais2{
+    opacity: .9;
+ }
+
+
+
+ .iconmais2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(img/iconmais2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  transition-duration:.3s;
+  opacity:0;
+  z-index:9;
+  transform: scale(0.8);
+}
+
+.iconmais2:hover{
+  opacity:.9;
+}
+
+.iconmaistexto2{
+  position: absolute;
+    left:0;
+    bottom:0;
+    margin-bottom:-200px;
+    width:100%;
+    height:auto;
+    color: white;
+    text-align: center;
+    padding:20px 0px;
+    background:#0f8f2e;
+    transition-duration: .3s;
+}
+
+.foto:hover .iconmaistexto2{
+  margin-bottom:0px;
+}
+
+
+
+
+
+/* fecha home 3*/
+
+
+
+
+
+/*Deixar no final do arquivo */
+.conteudocelular{
+        width:100%;
+        overflow:hidden;
+    }
+.nornone{
+    display: none;
+}
+@media screen and (max-width:1370px){
+    
+    .conteudocelular{
+        width:100%;
+        overflow:hidden !important;
+    }
+     .shellfoto100, .shellfoto100 .foto{
+        height:200px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    
+    .conteudocelular{
+        width:1100px;
+        overflow:hidden !important;
+    }
+    .shellfoto100, .shellfoto100 .foto{
+        height:150px;
+    }
+}
+
+

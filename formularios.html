@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+	<META NAME="ROBOTS" content="INDEX, FOLLOW" />
+  <META NAME="Googlebot" CONTENT="index,follow" />
+  <META NAME="MSNBot" CONTENT="index,follow,all" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/framework.css" />
+  <link rel="stylesheet" href="estilo.css" />
+
+
+</head>
+
+
+
+	<body>
+		 
+
+		 <div class="home1">
+           <div class="meio">
+           	      <div style="clear:both; height:100px;"></div>
+
+           	    <center><h1 class="preto nomargin bold"> Cadastro Formulario </h1></center>
+
+
+           	    <div style="clear: both; height: 20px;"></div>
+
+
+
+           	    <form class="centro" name="formulariologin"   method="POST" enctype="multipart/form-data">
+
+           	    	   <label class="preto bold "> Titulo: </label>
+		              <div style="clear:both; height:5px;"></div>
+		              <input class="contato" type="text" name="titulo"  placeholder="Informe o Titulo da Pulblicação " required>
+
+		              <div style="clear:both; height:10px;"></div>
+
+
+		              <label class=" preto bold"> Cor do titulo: </label>
+		              <div style="clear:both; height:5px;"></div>
+		              <input class="contato" type="text" name="cor"  placeholder="Informe a cor do Titulo" required>
+
+		              <div style="clear:both; height:10px;"></div>
+
+
+
+		              <label class="bold nomargin"> Data Pulblicação: </label>
+              
+                      <div style="clear:both; height:5px;"></div>
+
+                  <input type="text" class="contato" 
+                   name="pesquisar"   id="datepicker" maxlength="10"  required />
+
+                        <div style="clear:both; height:10px;"></div>
+                          
+
+                          <label class="bold nomargin"> Email: </label>
+              
+                      <div style="clear:both; height:5px;"></div>
+
+                      <input type="email" class="contato"  name="email" id="email" placeholder=" Informe o seu E-MAIL:" required>
+
+
+
+
+                        <div style="clear:both; height:10px;"></div>
+                          
+
+                          <label class="bold nomargin"> Foto: </label>
+              
+                      <div style="clear:both; height:5px;"></div>
+
+               <input class="contato" type="file" name="foto1" value="<?php echo $foto1; ?>" placeholder=" ">
+
+                <div style="clear:both; height:10px;"></div>
+
+
+
+                 <label class="preto bold "> Introdução: </label>
+		              <div style="clear:both; height:5px;"></div>
+		              <input class="contato" type="text" name="titulo"  placeholder="Informe Introdução " required>
+
+		              <div style="clear:both; height:10px;"></div>
+
+
+
+		              <div style="clear:both;height:20px;"></div>
+
+                                <input type="submit" name="submit" value="ENVIAR" id="btenviar">
+
+                                <div style="clear:both;height:50px;"></div>
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+                  <script type="text/javascript" src="jquery-3.5.1.min.js"> </script>
+                  <script type="text/javascript" src="jquery-ui.min.js"> </script>
+
+
+                  <script>
+                        $("#datepicker").datepicker({
+                          dateFormat: "dd/mm/yy",
+                          dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+                          dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+                          dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+                          monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+                          monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+                          nextText: 'Próximo',
+                          prevText: 'Anterior'
+                        });
+                    </script>
+
+
+
+
+           	   </form><!-- fecha formulario --> 	
+               
+
+           
+           </div><!-- fim meio -->
+		 </div><!-- fecha home1-->	
+
+
+
+
+	</body>	
+
+
+</html>

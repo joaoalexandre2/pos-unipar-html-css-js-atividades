@@ -1,0 +1,20 @@
+mysql injection e como se proteger
+
+sobre criptografia no php
+quais comandos podemos usar?
+
+porque não usar md5?
+
+o que é e como funciona
+$_SESSION['']
+$_COOKIE['']
+
+login ()
+ dar acesso ao cms
+ sistema injection
+ pela criptografia
+-
+ paginas internas do cms (verificar se está logado.)
+-
+
+tarefa de casa do joão.
