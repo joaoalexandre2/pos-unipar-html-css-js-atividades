@@ -44,7 +44,7 @@
 
 		              <label class=" preto bold"> Cor do titulo: </label>
 		              <div style="clear:both; height:5px;"></div>
-		              <input class="contato" type="text" name="cor"  placeholder="Informe a cor do Titulo" required>
+		              <input class="contato" type="color" name="cor"  placeholder="Informe a cor do Titulo" required>
 
 		              <div style="clear:both; height:10px;"></div>
 
@@ -54,8 +54,8 @@
               
                       <div style="clear:both; height:5px;"></div>
 
-                  <input type="text" class="contato" 
-                   name="pesquisar"   id="datepicker" maxlength="10"  required />
+                  <input type="date" class="contato" 
+                    required />
 
                         <div style="clear:both; height:10px;"></div>
                           
@@ -89,6 +89,14 @@
 		              <div style="clear:both; height:10px;"></div>
 
 
+		              <label class="preto bold "> Endereço Origem: </label>
+		              <div style="clear:both; height:5px;"></div>
+		              <input class="contato" type="url" name="titulo"  placeholder="Informe a url " required>
+
+
+
+
+
 
 		              <div style="clear:both;height:20px;"></div>
 
@@ -109,22 +117,7 @@
                 
 
 
-                  <script type="text/javascript" src="jquery-3.5.1.min.js"> </script>
-                  <script type="text/javascript" src="jquery-ui.min.js"> </script>
-
-
-                  <script>
-                        $("#datepicker").datepicker({
-                          dateFormat: "dd/mm/yy",
-                          dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
-                          dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
-                          dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
-                          monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
-                          monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
-                          nextText: 'Próximo',
-                          prevText: 'Anterior'
-                        });
-                    </script>
+           
 
 
 
